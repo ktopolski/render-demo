@@ -8,6 +8,7 @@ services:
   - type: web
     name: employee_recognition
     env: ruby
+    plan: free
     buildCommand: "./bin/render-build.sh"
     startCommand: bundle exec rails s"
     envVars:
