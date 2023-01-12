@@ -2,6 +2,7 @@ databases:
   - name: employee_recognition
     databaseName: employee_recognition
     user: employee_recognition
+    plan: free
     ipAllowList: []
 
 services:
